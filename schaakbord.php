@@ -26,7 +26,7 @@ tr {
 for ($tr = 0; $tr <= 8; $tr++) {
     echo "<tr>";
     for ($td = 0; $td <= 8; $td++) {
-        if ($td % 2 == 0 && $tr % 2 == 0 || $tr % 2 == 1  && $td % 2 == 1){
+        if ($td % 2 == 0 && $tr % 2 == 0 || $tr % 2 == 1  && $td % 2 == 1) {
             echo "<td class='white'></td>";
         } 
         else {
